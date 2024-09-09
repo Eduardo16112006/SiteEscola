@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,29 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <h1>Bem-Vindo teu porra</h1>
+    <div class="container">
+        <div id="img-infor" class="box esquerda">
+            <img src="imgs/th (23).png" alt="sadasd">
+            <img src="imgs/th (24).png" alt="sadasd">
+            <img src="imgs/th (25).png" alt="sadasd">
+        </div>
+
+        <div id="form-login" class="box direita">
+            <h2 id="text-login">Login</h2>
+            <input type="number" name="nprocesso" id="nprocesso-login" placeholder="Nº Processo">
+            <input type="password" name="senha" id="password-login" placeholder="Senha">
+            <div id="div3">
+                <label>
+                    <input type="checkbox" name="Manter Logado" id="manter-logado">
+                    Manter Logado
+                </label>
+                <label>Esquerceu a Senha?</label>
+            </div>
+            <button type="submit">Entrar</button>
+            <button id="btn-trocar">Entrar com E-mail</button>
+        </div>
+    </div>
+    
 </body>
 <script src="scripts/index.js"></script>
 </html>
